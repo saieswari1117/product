@@ -1,0 +1,72 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: bisque;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Background image */
+.background-image {
+    background-image: url("https://m.media-amazon.com/images/I/A1jVPYGzVRL.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    padding: 40px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Section styles */
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Product styles */
+.product {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Review styles */
+.review {
+    margin-bottom: 30px;
+}
+
+.author {
+    font-style: italic;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+    color: #fff;
+}
